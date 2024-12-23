@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceWar3.settings.IntConvertException">
+    <Position X="20.75" Y="23" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>settings\IntConvertException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceWar3.settings.SettingBar">
+    <Position X="20.75" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAIAAAAAAAANACAAAAAAAAAAAAA=</HashCode>
+      <FileName>settings\Settings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceWar3.settings.Settings">
+    <Position X="22.5" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAEACAAAAAAAIAAAAADAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>settings\Settings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceWar3.settings.SettingsWindow" BaseTypeListCollapsed="true">
+    <Position X="24.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAgACAABAAAAACACAAEAAACEAAAAAAAACCAAAAA=</HashCode>
+      <FileName>settings\SettingsWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SpaceWar3.bullet.Bullet">
+    <Position X="19.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAgAAEAAAAIAAAACAAAAAAAQAAQAEAAAA=</HashCode>
+      <FileName>bullet\Bullet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SpaceWar3.bullet.SimpleBullet">
+    <Position X="18.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>bullet\SimpleBullet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceWar3.bullet.StrongBullet">
+    <Position X="20.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>bullet\StrongBullet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceWar3.supply.FastSupply">
+    <Position X="24.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQACAQAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>supply\FastSupply.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceWar3.supply.GhostSupply">
+    <Position X="22.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQACAQAAAAAgAAAAAAAAAAAAAAAAAEAAABAAAAAAAA=</HashCode>
+      <FileName>supply\GhostSupply.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceWar3.supply.HealSupply">
+    <Position X="28" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>supply\HealSupply.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceWar3.supply.StrongSupply">
+    <Position X="26.25" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQACAQAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>supply\StrongSupply.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceWar3.supply.Supply">
+    <Position X="24.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAABAAAAAAAAAAABAAAAgQBAAAEAAAA=</HashCode>
+      <FileName>supply\Supply.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceWar3.enemy.boss.Boss">
+    <Position X="10.75" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAEAAAAAAAEAAAACAAAAAEABAGJAAAAgAAEAAA=</HashCode>
+      <FileName>enemy\boss\Boss.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceWar3.enemy.boss.FastBoss">
+    <Position X="9" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>enemy\boss\FastBoss.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceWar3.enemy.boss.SimpleBoss">
+    <Position X="10.75" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>enemy\boss\SimpleBoss.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceWar3.enemy.boss.StrongBoss">
+    <Position X="12.75" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>enemy\boss\StrongBoss.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceWar3.enemy.BasicEnemy">
+    <Position X="9.75" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAIAAEAAAAAAAAEAAA=</HashCode>
+      <FileName>enemy\BasicEnemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceWar3.enemy.Enemy">
+    <Position X="10.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAgEAAAIAEABBAAAAQSAgQAAAAEEAAE=</HashCode>
+      <FileName>enemy\Enemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceWar3.enemy.FastEnemy">
+    <Position X="11.75" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAEAAAAAAAAAAAAAAAAAAAAAAEAAAAAAEAEAAA=</HashCode>
+      <FileName>enemy\FastEnemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceWar3.enemy.StrongEnemy">
+    <Position X="13.5" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAgAAAAAAAAAEAAAAAAAAEAAA=</HashCode>
+      <FileName>enemy\StrongEnemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceWar3.App">
+    <Position X="26" Y="22.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceWar3.ArrayUtils">
+    <Position X="24.25" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAIBAAAAAAAAAAAQAAAAACAAA=</HashCode>
+      <FileName>ArrayUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceWar3.Asteroid">
+    <Position X="16" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAACAAAAACAEAAAABAAAAAAAAIAAQAAAAEAAAA=</HashCode>
+      <FileName>Asteroid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceWar3.CollisionDetector">
+    <Position X="20.75" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MAAAEAAgAAAIIAAAIABAAFAKAAUQAAIBhAAAAQBABAA=</HashCode>
+      <FileName>CollisionDetector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceWar3.Controller">
+    <Position X="26" Y="20" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAEEAAAAAAAAgAAQAAAAAAAAAAAAEAAAAABAAAAAA=</HashCode>
+      <FileName>Game.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceWar3.Game">
+    <Position X="27.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QQQAAQZGACAwBAgBASgIBE2IAIAwAAGBwAACATDkAAA=</HashCode>
+      <FileName>Game.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceWar3.GameGUI" BaseTypeListCollapsed="true">
+    <Position X="20.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAABAAAAAAAABAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>GameGUI.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SpaceWar3.GUIControl">
+    <Position X="18.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQRAARxQABAUIAAhAAkAEERIAEAQAAAJwNAQAwHECIA=</HashCode>
+      <FileName>GUIControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceWar3.MainWindow" BaseTypeListCollapsed="true">
+    <Position X="26" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAABCIBAAACAFQAAQEAAgAAAAMACAACAgAAAAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.471" Collapsed="true" />
+  </Class>
+  <Class Name="SpaceWar3.OutOfTheWindowException">
+    <Position X="26" Y="24" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>OutOfTheWindowException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceWar3.User">
+    <Position X="22.5" Y="25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAQAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ScoreBoard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceWar3.ScoreBoard">
+    <Position X="22.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAgAAAKAAGACAAAAAAAgJAAAQgGAQA=</HashCode>
+      <FileName>ScoreBoard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceWar3.ScoreBoardWindow" BaseTypeListCollapsed="true">
+    <Position X="22.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAQAAAAAIEAAAAEAABAAAAAAAAAAAA=</HashCode>
+      <FileName>ScoreBoardWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SpaceWar3.Ship">
+    <Position X="10.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAiACEAIAAgAAAAAAAAAAAAAAAAgCAAAAAAAAAAAg=</HashCode>
+      <FileName>Ship.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SpaceWar3.SupplyController">
+    <Position X="24.25" Y="23.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAABAgAAAAAAAABAAAABAAAAAACAAA=</HashCode>
+      <FileName>SpaceShip.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceWar3.SpaceShip">
+    <Position X="14.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAIEAICIAACAAEAIAAAAAAAAAAGAAAAIADRAABE=</HashCode>
+      <FileName>SpaceShip.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceWar3.Star">
+    <Position X="24.25" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAABgADAAAAA=</HashCode>
+      <FileName>Star.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceWar3.Subject">
+    <Position X="17.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAASAQAIAAIADAAAAAQAABAAAAAQAAAA=</HashCode>
+      <FileName>Subject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SpaceWar3.bullet.HomingBullet">
+    <Position X="17" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAIAAAAAAAAAAAAAAQAAgAAAQAAAAAA=</HashCode>
+      <FileName>bullet\HomingBullet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="SpaceWar3.bullet.IBullet">
+    <Position X="16.75" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>bullet\IBullet.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SpaceWar3.IMovable">
+    <Position X="16.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAIAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IMovable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SpaceWar3.IShip">
+    <Position X="16.75" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACACEAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>IShip.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="SpaceWar3.settings.SettingTypes">
+    <Position X="16.75" Y="23" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>settings\Settings.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SpaceWar3.Types">
+    <Position X="16.75" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAIAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Types.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

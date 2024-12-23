@@ -1,0 +1,60 @@
+﻿<Window x:Class="SpaceWar3.ScoreBoardWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SpaceWar3"
+        mc:Ignorable="d"
+        Loaded="ScoreBoardWindow_Load"
+        Closed="SBW_Closed"
+        Icon="pack://application:,,,/Resources/img/SpaceShip.ico"
+        Title="Score Board" Height="500" Width="450">
+    <Grid HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,20,0,20">
+        <!-- Satır Tanımları -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <!-- Başlık sabit kalır -->
+            <RowDefinition Height="Auto" />
+            <!-- Orta grid içeriği kadar yer kaplar -->
+            <RowDefinition Height="Auto" />
+            <!-- Buton sabit kalır -->
+        </Grid.RowDefinitions>
+
+        <!-- Başlık (Label) -->
+        <Label 
+        Grid.Row="0" 
+        Content="SCOREBOARD" 
+        FontSize="36" 
+        FontWeight="Bold" 
+        FontStyle="Italic" 
+        HorizontalAlignment="Center" 
+        VerticalAlignment="Top" />
+
+        <!-- Dinamik İçerik için Boş Grid -->
+        <Grid Grid.Row="1" Width="300" x:Name="ScoreBoardTable" VerticalAlignment="Top" HorizontalAlignment="Center">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <!-- İlk satır -->
+                <RowDefinition Height="Auto" />
+                <!-- İkinci satır -->
+                <!-- Daha fazla içerik gerekiyorsa burada eklenir -->
+            </Grid.RowDefinitions>
+        </Grid>
+
+
+        <!-- Kapatma Butonu -->
+        <Button 
+        Grid.Row="2" 
+        Content="CLOSE" 
+        Width="204" 
+        Height="27" 
+        BorderBrush="{x:Null}" 
+        HorizontalAlignment="Center" 
+        VerticalAlignment="Top" 
+        Margin="0,10,0,0" Click="Button_Click" />
+
+    </Grid>
+
+
+
+</Window>

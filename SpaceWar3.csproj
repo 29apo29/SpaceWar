@@ -1,0 +1,116 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="a.gif" />
+    <None Remove="bullet.png" />
+    <None Remove="Resources\img\asteroid.png" />
+    <None Remove="Resources\img\BasicEnemy.png" />
+    <None Remove="Resources\img\boss0.png" />
+    <None Remove="Resources\img\boss0Raw.png" />
+    <None Remove="Resources\img\boss1.png" />
+    <None Remove="Resources\img\boss1Raw.png" />
+    <None Remove="Resources\img\boss2.png" />
+    <None Remove="Resources\img\boss2Raw.png" />
+    <None Remove="Resources\img\bullet.png" />
+    <None Remove="Resources\img\bulletReverse.png" />
+    <None Remove="Resources\img\FastEnemy.png" />
+    <None Remove="Resources\img\faster.png" />
+    <None Remove="Resources\img\heal.png" />
+    <None Remove="Resources\img\homingBullet.png" />
+    <None Remove="Resources\img\shield.png" />
+    <None Remove="Resources\img\SpaceShip.ico" />
+    <None Remove="Resources\img\SpaceShip.png" />
+    <None Remove="Resources\img\SpaceShipGhost.png" />
+    <None Remove="Resources\img\SpaceShipWhiteShield.png" />
+    <None Remove="Resources\img\strong.png" />
+    <None Remove="Resources\img\strongBullet.png" />
+    <None Remove="Resources\img\strongBulletReverse.png" />
+    <None Remove="Resources\img\StrongEnemy.png" />
+    <None Remove="Resources\scoreboard.csv" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="WpfAnimatedGif" Version="2.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\img\asteroid.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\img\BasicEnemy.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\img\boss0.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\img\boss0Raw.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\img\boss1.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\img\boss1Raw.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\img\boss2.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\img\boss2Raw.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\img\bullet.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\img\bulletReverse.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\img\FastEnemy.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\img\faster.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\img\heal.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\img\homingBullet.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\img\shield.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\img\SpaceShip.ico">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\img\SpaceShip.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\img\SpaceShipGhost.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\img\SpaceShipWhiteShield.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\img\strong.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\img\strongBullet.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\img\strongBulletReverse.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\img\StrongEnemy.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>

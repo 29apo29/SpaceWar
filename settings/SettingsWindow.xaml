@@ -1,0 +1,88 @@
+﻿<Window x:Class="SpaceWar3.settings.SettingsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SpaceWar3.settings"
+        mc:Ignorable="d"
+        ResizeMode="CanMinimize"
+        Closed="SW_Closed"
+        Icon="pack://application:,,,/Resources/img/SpaceShip.ico"
+        Title="Settings" Height="580" Width="520" MaxWidth="550" MaxHeight="580" MinWidth="520" MinHeight="580" WindowStyle="ThreeDBorderWindow">
+    <Grid HorizontalAlignment="Center">
+        <Grid Width="344" HorizontalAlignment="Center">
+            <Label Content="SETTINGS" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="36" FontWeight="Bold" Width="178"/>
+            <Grid Width="308" Height="400" Margin="18,60,18,0" VerticalAlignment="Top">
+                <Grid Margin="0,0,0,331" Height="20" VerticalAlignment="Top">
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="UP" VerticalAlignment="Center" Width="258"/>
+                    <Button x:Name="UP" HorizontalAlignment="Left" Margin="258,0,0,0" BorderBrush="{x:Null}" Content="Button" VerticalAlignment="Center" Width="50"/>
+                </Grid>
+                <Grid Margin="0,25,0,306" Height="20" VerticalAlignment="Top">
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="DOWN" VerticalAlignment="Center" Width="258"/>
+                    <Button x:Name="DOWN" HorizontalAlignment="Left" Margin="258,0,0,0" BorderBrush="{x:Null}" Content="Button" VerticalAlignment="Center" Width="50"/>
+                </Grid>
+                <Grid Margin="0,50,0,281" Height="20" VerticalAlignment="Top">
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="LEFT" VerticalAlignment="Center" Width="258"/>
+                    <Button x:Name="LEFT" HorizontalAlignment="Left" Margin="258,0,0,0" BorderBrush="{x:Null}" Content="Button" VerticalAlignment="Center" Width="50"/>
+                </Grid>
+                <Grid Margin="0,75,0,256" Height="20" VerticalAlignment="Top">
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="RIGHT" VerticalAlignment="Center" Width="258"/>
+                    <Button x:Name="RIGHT" HorizontalAlignment="Left" Margin="258,0,0,0" BorderBrush="{x:Null}" Content="Button" VerticalAlignment="Center" Width="50"/>
+                </Grid>
+                <Grid Margin="0,100,0,231" Height="20" VerticalAlignment="Top">
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="SHOOT" VerticalAlignment="Center" Width="258"/>
+                    <Button x:Name="SHOOT" HorizontalAlignment="Left" Margin="258,0,0,0" BorderBrush="{x:Null}" Content="Button" VerticalAlignment="Center" Width="50"/>
+                </Grid>
+                <Grid Margin="0,125,0,206" Height="20" VerticalAlignment="Top">
+                    <TextBlock  HorizontalAlignment="Left" TextWrapping="Wrap" Text="PAUSE" VerticalAlignment="Center" Width="258"/>
+                    <Button x:Name="PAUSE" HorizontalAlignment="Left" Margin="258,0,0,0" BorderBrush="{x:Null}" Content="Button" VerticalAlignment="Center" Width="50"/>
+                </Grid>
+                <Grid Margin="0,150,0,181" Height="20" VerticalAlignment="Top">
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="FAST SUPPLY" VerticalAlignment="Center" Width="258"/>
+                    <Button x:Name="FAST_SUPPLY" HorizontalAlignment="Left" Margin="258,0,0,0" BorderBrush="{x:Null}" Content="Button" VerticalAlignment="Center" Width="50"/>
+                </Grid>
+                <Grid Margin="0,175,0,156" Height="20" VerticalAlignment="Top">
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="HEAL SUPPLY" VerticalAlignment="Center" Width="258"/>
+                    <Button x:Name="HEAL_SUPPLY" HorizontalAlignment="Left" Margin="258,0,0,0" BorderBrush="{x:Null}" Content="Button" VerticalAlignment="Center" Width="50"/>
+                </Grid>
+                <Grid Margin="0,200,0,131" Height="20" VerticalAlignment="Top">
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="STRONG SUPPLY" VerticalAlignment="Center" Width="258"/>
+                    <Button x:Name="STRONG_SUPPLY" HorizontalAlignment="Left" Margin="258,0,0,0" BorderBrush="{x:Null}" Content="Button" VerticalAlignment="Center" Width="50"/>
+                </Grid>
+                <Grid Margin="0,225,0,106" Height="20" VerticalAlignment="Top">
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="GHOST SUPPLY" VerticalAlignment="Center" Width="258"/>
+                    <Button x:Name="GHOST_SUPPLY" HorizontalAlignment="Left" Margin="258,0,0,0"  BorderBrush="{x:Null}" Content="Button" VerticalAlignment="Center" Width="50"/>
+                </Grid>
+                <Grid Margin="0,250,0,81" Height="20" VerticalAlignment="Top">
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="BOSS SPAWN SCORE" VerticalAlignment="Center" Width="258"/>
+                    <TextBox x:Name="BOSS_SPAWN_SCORE" HorizontalAlignment="Left" Margin="258,0,0,0" Text="Button" VerticalAlignment="Center" Width="50" TextChanged="TextBox_TextChanged"/>
+                </Grid>
+                <Grid Margin="0,275,0,56" Height="20" VerticalAlignment="Top">
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="ASTEROID SPAWN TIME" VerticalAlignment="Center" Width="258"/>
+                    <TextBox x:Name="ASTEROID_SPAWN_TIME" HorizontalAlignment="Left" Margin="258,0,0,0" Text="Button" VerticalAlignment="Center" Width="50" TextChanged="TextBox_TextChanged"/>
+                </Grid>
+                <Grid Margin="0,300,0,31" Height="20" VerticalAlignment="Top">
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="ENEMY SPAWN TIME FIRST" VerticalAlignment="Center" Width="258"/>
+                    <TextBox x:Name="ENEMY_SPAWN_TIME_FIRST" HorizontalAlignment="Left" Margin="258,0,0,0" Text="Button" VerticalAlignment="Center" Width="50" TextChanged="TextBox_TextChanged"/>
+                </Grid>
+                <Grid Margin="0,325,0,6" Height="20" VerticalAlignment="Top">
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="ENEMY SPAWN TIME SECOND" VerticalAlignment="Center" Width="258"/>
+                    <TextBox x:Name="ENEMY_SPAWN_TIME_SECOND" HorizontalAlignment="Left" Margin="258,0,0,0" Text="Button" VerticalAlignment="Center" Width="50" TextChanged="TextBox_TextChanged"/>
+                </Grid>
+                <Grid Margin="0,350,0,0" Height="20" VerticalAlignment="Top">
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="ENEMY SPAWN TIME THIRD" VerticalAlignment="Center" Width="258"/>
+                    <TextBox x:Name="ENEMY_SPAWN_TIME_THIRD" HorizontalAlignment="Left" Margin="258,0,0,0" Text="Button" VerticalAlignment="Center" Width="50" TextChanged="TextBox_TextChanged"/>
+                </Grid>
+                <Grid Margin="0,375,0,0" Height="20" VerticalAlignment="Top">
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="ENEMY SPAWN TIME FOURTH" VerticalAlignment="Center" Width="258"/>
+                    <TextBox x:Name="ENEMY_SPAWN_TIME_FOURTH" HorizontalAlignment="Left" Margin="258,0,0,0" Text="Button" VerticalAlignment="Center" Width="50" TextChanged="TextBox_TextChanged"/>
+                </Grid>
+            </Grid>
+            <Button  Content="SAVE" FontWeight="Bold" BorderBrush="{x:Null}" Height="23" Width="178" VerticalAlignment="Top" Margin="148,465,18,0" Background="#FF459C26" Click="Button_Click"/>
+            <Button  Content="CLOSE" FontWeight="Bold" BorderBrush="{x:Null}" Height="23" VerticalAlignment="Top" Margin="18,465,201,0" Background="#FFAD2B2B" Click="Button_Click_1"/>
+            <Button  Content="SET DEFAULT" FontWeight="Bold" BorderBrush="{x:Null}" Height="23" VerticalAlignment="Top" Margin="18,493,18,0" Click="Button_Click_2"/>
+        </Grid>
+
+
+    </Grid>
+</Window>
