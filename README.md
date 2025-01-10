@@ -1,7 +1,7 @@
 # SpaceWar
 ## BUGs or comments
 
-[Create new Issues](https://github.com/29apo29/minesweeper_29apo29/issues)
+[Create new Issues](https://github.com/29apo29/SpaceWar/issues)
 
 Email Me: abdullahergeni@yandex.com
 
